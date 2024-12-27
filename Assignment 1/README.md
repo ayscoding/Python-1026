@@ -16,7 +16,7 @@ If the user chooses to calculate up to the 21st Fibonacci number, the output wil
 20: 6765 6,765
 
 
-=================================================================================================================================
+
 ## Prime Number Finder (asn01_B.py)
 
 This Python file is part of **Project 01** and identifies all prime numbers within a user-specified range. The program ensures proper handling of user input and efficiently validates primality using mathematical optimization.
