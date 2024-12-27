@@ -48,3 +48,54 @@ If the user inputs a range of `11` to `3`, the program will:
 5 is prime
 7 is prime
 11 is prime
+
+<br>
+
+## Moore's Law Estimation Program
+
+This Python file is part of **Project 01** and implements Moore's Law to estimate the growth in computing power over time. Moore's Law states that the number of transistors in an integrated circuit doubles approximately every two years, leading to exponential increases in computational performance.
+
+### Features
+- **User Input**:
+  - The program prompts the user to input:
+    1. The **starting number of transistors**.
+    2. The **starting year** for calculations.
+    3. The **total number of years** for which the calculations should be performed.
+
+- **Computational Logic**:
+  - The program calculates the growth of transistors over a series of 2-year increments, doubling the number of transistors every two years as per Moore's Law.
+  - For each year, it calculates the **computing power (FLOPS)** by multiplying the current number of transistors by a constant factor of `50`.
+
+- **Unit Conversion and Output Formatting**:
+  - The computing power is displayed using appropriate units such as `FLOPS`, `kiloFLOPS`, `megaFLOPS`, etc., depending on its magnitude.
+  - For readability, the output includes:
+    1. The **current year**.
+    2. The **number of transistors**, formatted with commas.
+    3. The computing power displayed in:
+       - Scaled units with 2 decimal places (e.g., `5.00 kiloFLOPS`).
+       - Raw number format (e.g., `5,000 FLOPS`).
+
+- **Output Format**:
+  - Example output based on the inputs `Starting number of transistors: 100`, `Starting year: 2023`, and `Total number of years: 6`:
+    ```
+    YEAR  TRANSISTORS  FLOPS
+    2023 100 5.00 kiloFLOPS 5,000
+    2025 200 10.00 kiloFLOPS 10,000
+    2027 400 20.00 kiloFLOPS 20,000
+    2029 800 40.00 kiloFLOPS 40,000
+
+    END: Project One <01> – Part C
+    ```
+
+### Educational Purpose
+This program demonstrates:
+- **Exponential growth modeling** using Moore's Law.
+- **Efficient calculations** involving large numerical values.
+- **Dynamic unit scaling** for better representation of results.
+- **Readable and well-formatted output**, suitable for understanding large-scale computations.
+
+### Notes
+- The unit definitions follow FLOPS scaling:
+  - `1,000 FLOPS = 1 kiloFLOPS`, `1,000 kiloFLOPS = 1 megaFLOPS`, and so on.
+- The program handles calculations up to `YottaFLOPS`.
+- Designed to provide both numerical precision and a clear understanding of exponential growth trends.
