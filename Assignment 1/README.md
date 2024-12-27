@@ -43,3 +43,7 @@ This Python file is part of **Project 01** and identifies all prime numbers with
 If the user inputs a range of `11` to `3`, the program will:
 1. Automatically switch the range to `3` to `11`.
 2. Output:
+3 is prime
+5 is prime
+7 is prime
+11 is prime
