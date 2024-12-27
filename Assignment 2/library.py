@@ -3,7 +3,7 @@ def isbn_validate(isbn):
     if len(isbn) != 13 or not isbn.isdigit():
         return False
     
-    factors = [1, 3] * 6
+    factors = [1, 3] * 6 
     factors.append(1)
     total = 0
     for digit, factor in zip(isbn, factors):
