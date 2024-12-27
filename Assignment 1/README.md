@@ -84,7 +84,7 @@ This Python file is part of **Project 01** and implements Moore's Law to estimat
     2027 400 20.00 kiloFLOPS 20,000
     2029 800 40.00 kiloFLOPS 40,000
 
-    END: Project One <01> – Part C
+    END: Project One <01> – Part c
     ```
 
 
