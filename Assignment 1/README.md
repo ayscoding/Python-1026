@@ -14,3 +14,32 @@ This Python file is part of **Project 01** and calculates the Fibonacci sequence
 ### Example Output
 If the user chooses to calculate up to the 21st Fibonacci number, the output will include:
 20: 6765 6,765
+
+
+## Prime Number Finder (asn01_B.py)
+
+This Python file is part of **Project 01** and identifies all prime numbers within a user-specified range. The program ensures proper handling of user input and efficiently validates primality using mathematical optimization.
+
+### Features
+- **User Input for Range**: 
+  - The program prompts the user to enter a starting value (`from`) and an ending value (`to`) to define the range.
+  - For example, to find all prime numbers between `3` and `11`, the user inputs `3` and `11`.
+
+- **Input Validation and Error Handling**:
+  - If the starting value is greater than the ending value, the program automatically switches the values to ensure a valid range and notifies the user of the correction.
+
+- **Optimized Prime Number Validation**:
+  - Numbers less than or equal to `1` are skipped since they are not prime.
+  - For each number in the range, the program checks for divisors up to the square root of the number (an efficient approach for primality testing).
+  - If a number is determined to be prime, it is displayed in the format `{number} is prime`.
+
+- **Output Format**:
+  - The program displays:
+    1. The corrected range (if applicable).
+    2. A list of prime numbers in the specified range, each line formatted as `{number} is prime`.
+  - Includes a clear end message signaling the program's completion.
+
+### Example Output
+If the user inputs a range of `11` to `3`, the program will:
+1. Automatically switch the range to `3` to `11`.
+2. Output:
