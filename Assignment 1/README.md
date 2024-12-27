@@ -51,7 +51,7 @@ If the user inputs a range of `11` to `3`, the program will:
 
 <br>
 
-## Moore's Law Estimation Program
+## Moore's Law Estimation Program (asn01_C.py)
 
 This Python file is part of **Project 01** and implements Moore's Law to estimate the growth in computing power over time. Moore's Law states that the number of transistors in an integrated circuit doubles approximately every two years, leading to exponential increases in computational performance.
 
@@ -87,15 +87,4 @@ This Python file is part of **Project 01** and implements Moore's Law to estimat
     END: Project One <01> – Part C
     ```
 
-### Educational Purpose
-This program demonstrates:
-- **Exponential growth modeling** using Moore's Law.
-- **Efficient calculations** involving large numerical values.
-- **Dynamic unit scaling** for better representation of results.
-- **Readable and well-formatted output**, suitable for understanding large-scale computations.
 
-### Notes
-- The unit definitions follow FLOPS scaling:
-  - `1,000 FLOPS = 1 kiloFLOPS`, `1,000 kiloFLOPS = 1 megaFLOPS`, and so on.
-- The program handles calculations up to `YottaFLOPS`.
-- Designed to provide both numerical precision and a clear understanding of exponential growth trends.
