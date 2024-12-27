@@ -16,8 +16,6 @@ If the user chooses to calculate up to the 21st Fibonacci number, the output wil
 20: 6765 6,765
 
 <br>
-<br>
-<br>
 
 ## Prime Number Finder (asn01_B.py)
 
